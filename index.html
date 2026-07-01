@@ -7,8 +7,8 @@
 <style>
     body {
         margin: 0;
-        background: #17213b;
-        color: #e0e0e0;
+        background: #0f1525; /* CIEMNY, ŁADNY */
+        color: #d6d6d6;
         font-family: "Courier New", monospace;
     }
 
@@ -17,7 +17,7 @@
         padding: 40px;
         text-align: center;
         background: #000;
-        border-bottom: 2px solid #222;
+        border-bottom: 2px solid #1a1a1a;
     }
     header h1 {
         margin: 0;
@@ -28,22 +28,22 @@
     header h2 {
         margin: 0;
         font-size: 22px;
-        color: #777;
+        color: #666;
     }
 
     /* ARTICLE */
     article {
         max-width: 900px;
         margin: 40px auto;
-        background: #404654;
-        color: #e0e0e0; /* poprawione */
+        background: #1f2537; /* CIEMNY PANEL */
+        color: #e0e0e0;
         padding: 30px;
         border: 2px solid #000;
-        border-radius: 6px;
+        border-radius: 10px;
     }
 
     .meta {
-        color: #ccc;
+        color: #aaa;
         font-size: 14px;
         margin-bottom: 20px;
     }
@@ -54,7 +54,7 @@
     h3 {
         margin-top: 0;
         font-size: 28px;
-        color: #0f0;
+        color: #7cff7c; /* neon green */
     }
 
     .content {
@@ -64,42 +64,40 @@
 
     .image-box {
         margin: 25px 0;
-        border: 1px solid #ccc;
+        border: 1px solid #333;
         padding: 10px;
         text-align: center;
-        color: #555;
-        background: #f7f7f7;
+        color: #ccc;
+        background: #111;
     }
 
     pre {
-        background: #111;
+        background: #0b0f19;
         padding: 15px;
-        border: 1px solid #333;
+        border: 1px solid #222;
         overflow-x: auto;
         color: #00eaff;
     }
 
-    /* PRZYCISKI */
-    .antek-btn {
-        background: #777;
+    /* PRZYCISKI — CIEMNE, ŁADNE, ORGANICZNE */
+    .btn-antek {
+        display: inline-block;
+        padding: 14px 32px;
+        background: #1a1a1a;
         color: #fff;
-        padding: 14px 28px;
-        border: none;
-        border-radius: 50px 0;
         font-family: "Courier New", monospace;
         font-size: 18px;
-        cursor: pointer;
-        transition: 0.25s;
-        box-shadow: 0 0 10px #555;
-        margin-top: 20px;
-        display: inline-block;
         text-decoration: none;
+        border-radius: 25% 10%; /* Twój styl */
+        border: 1px solid #444;
+        box-shadow: 0 0 12px #000;
+        transition: 0.25s;
     }
 
-    .antek-btn:hover {
-        background: #888;
-        box-shadow: 0 0 18px #aaa;
-        transform: translateY(-2px);
+    .btn-antek:hover {
+        background: #333;
+        box-shadow: 0 0 18px #888;
+        transform: translateY(-3px);
     }
 
     /* FOOTER */
@@ -108,7 +106,7 @@
         padding: 20px;
         background: #000;
         color: #777;
-        border-top: 2px solid #222;
+        border-top: 2px solid #1a1a1a;
         margin-top: 40px;
     }
 
@@ -146,7 +144,7 @@
 Tu możesz wkleić kod, logi, tekst itp.
     </pre>
 
-    <a href="https://example.com" class="antek-btn">Przycisk testowy</a>
+    <a href="https://example.com" class="btn-antek">Przycisk testowy</a>
 </article>
 
 <footer class="footer">
