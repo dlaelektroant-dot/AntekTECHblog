@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>AntekTECH</title>
+
 <style>
     body {
         margin: 0;
@@ -30,19 +31,19 @@
         color: #777;
     }
 
-    /* ARTICLE – BIAŁE */
+    /* ARTICLE */
     article {
         max-width: 900px;
         margin: 40px auto;
         background: #404654;
-        color: #000;
+        color: #e0e0e0; /* poprawione */
         padding: 30px;
         border: 2px solid #000;
         border-radius: 6px;
     }
 
     .meta {
-        color: #444;
+        color: #ccc;
         font-size: 14px;
         margin-bottom: 20px;
     }
@@ -78,7 +79,7 @@
         color: #00eaff;
     }
 
-    /* ŁADNE GUZIKI */
+    /* PRZYCISKI */
     .antek-btn {
         background: #777;
         color: #fff;
@@ -91,12 +92,30 @@
         transition: 0.25s;
         box-shadow: 0 0 10px #555;
         margin-top: 20px;
+        display: inline-block;
+        text-decoration: none;
     }
 
     .antek-btn:hover {
         background: #888;
         box-shadow: 0 0 18px #aaa;
         transform: translateY(-2px);
+    }
+
+    /* FOOTER */
+    .footer {
+        text-align: center;
+        padding: 20px;
+        background: #000;
+        color: #777;
+        border-top: 2px solid #222;
+        margin-top: 40px;
+    }
+
+    .footer img {
+        width: 40px;
+        height: auto;
+        margin: 10px;
     }
 </style>
 </head>
@@ -107,45 +126,42 @@
     <h2>Antek.TECH</h2>
 </header>
 
-<!-- SZABLON WPISU -->
-
 <article>
     <div class="meta">
         <span>Data: 67.21.37</span>
         <span>Temat: ANTEKtech</span>
     </div>
 
-    <h3></h3>
+    <h3>Wpis testowy</h3>
 
     <div class="content">
         ANTEKtech
     </div>
 
     <div class="image-box">
-        
+        (tu możesz wkleić obrazek)
     </div>
 
     <pre>
-
+Tu możesz wkleić kod, logi, tekst itp.
     </pre>
 
-    <a href="https://example.com" class="antek-btn">
-  Przycisk testowy
-    </a>
+    <a href="https://example.com" class="antek-btn">Przycisk testowy</a>
 </article>
--->
+
 <footer class="footer">
-  <div class="socials">
-    <a href="https://m.youtube.com/@AntekTECH" target="_blank" class="yt-link">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2024.svg" alt="YouTube" class="yt-icon">
-    </a>
+    <div class="socials">
+        <a href="https://m.youtube.com/@AntekTECH" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2024.svg" alt="YouTube">
+        </a>
 
-    <a href="https://tiktok.com/@booted.oficial" target="_blank" class="tt-link">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/TikTok_logo.svg" alt="TikTok" class="tt-icon">
-    </a>
-  </div>
+        <a href="https://tiktok.com/@booted.oficial" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/TikTok_logo.svg" alt="TikTok">
+        </a>
+    </div>
 
-  <p>© AntekTECH 2026</p>
+    <p>© AntekTECH 2026</p>
 </footer>
+
 </body>
 </html>
